@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    background: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.movie-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.movie-card {
+    width: 200px;
+    background: #1c1c1c;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 0 10px #000;
+    transition: 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie-title {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.movie-price {
+    font-size: 16px;
+    color: #00ff88;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold
+}
+
+</style>
+<body>
+    <div class="movie-container" id="movieList"></div>
+
+<script src="./script.js"></script>
+
+
+
+</body>
+</html>
